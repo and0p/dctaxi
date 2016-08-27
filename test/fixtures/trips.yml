@@ -1,0 +1,71 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tdms_id: 1
+  type: 
+  provider: MyString
+  fare: 1.5
+  tip: 1.5
+  surcharge: 1.5
+  extras: 1.5
+  tolls: 1.5
+  total: 1.5
+  payment_type: MyString
+  payment_provider: MyString
+  start_date: 2016-08-26
+  pickup_time: 2016-08-26 17:29:51
+  dropoff_time: 2016-08-26 17:29:51
+  pickup_lat: 9.99
+  pickup_long: 9.99
+  pickup_address: MyString
+  pickup_city: MyString
+  pickup_state: MyString
+  pickup_postcode: MyString
+  dropoff_lat: 9.99
+  dropoff_lon: 9.99
+  dropoff_address: MyString
+  dropoff_city: MyString
+  dropoff_state: MyString
+  dropoff_postcode: MyString
+  mileage: 1.5
+  time: 1
+  northeast_bound_lat: 9.99
+  northeast_bound_long: 9.99
+  southeast_bound_lat: 9.99
+  southeast_bound_lon: 9.99
+  polyline: 
+
+two:
+  tdms_id: 1
+  type: 
+  provider: MyString
+  fare: 1.5
+  tip: 1.5
+  surcharge: 1.5
+  extras: 1.5
+  tolls: 1.5
+  total: 1.5
+  payment_type: MyString
+  payment_provider: MyString
+  start_date: 2016-08-26
+  pickup_time: 2016-08-26 17:29:51
+  dropoff_time: 2016-08-26 17:29:51
+  pickup_lat: 9.99
+  pickup_long: 9.99
+  pickup_address: MyString
+  pickup_city: MyString
+  pickup_state: MyString
+  pickup_postcode: MyString
+  dropoff_lat: 9.99
+  dropoff_lon: 9.99
+  dropoff_address: MyString
+  dropoff_city: MyString
+  dropoff_state: MyString
+  dropoff_postcode: MyString
+  mileage: 1.5
+  time: 1
+  northeast_bound_lat: 9.99
+  northeast_bound_long: 9.99
+  southeast_bound_lat: 9.99
+  southeast_bound_lon: 9.99
+  polyline: 
