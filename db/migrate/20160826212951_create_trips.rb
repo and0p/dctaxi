@@ -2,7 +2,7 @@ class CreateTrips < ActiveRecord::Migration
   def change
     create_table :trips do |t|
       t.integer :tdms_id
-      t.string :type
+      t.string :provider_type
       t.string :provider
       t.float :fare
       t.float :tip
@@ -33,7 +33,7 @@ class CreateTrips < ActiveRecord::Migration
       t.decimal :northeast_bound_long
       t.decimal :southeast_bound_lat
       t.decimal :southeast_bound_lon
-      t.test :polyline
+      t.text :polyline
 
       t.timestamps
     end

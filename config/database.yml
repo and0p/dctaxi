@@ -24,12 +24,14 @@ default: &default
 development:
   <<: *default
   database: dctaxi_development
+  username: dev
+  password: pass
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: dctaxi
+  #username: dctaxirake
 
   # The password associated with the postgres role (username).
   #password:

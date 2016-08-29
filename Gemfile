@@ -38,3 +38,10 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# someone told me to do this so uhhh
+gem 'tzinfo-data'
+
+# spreadsheets yo
+gem 'simple-spreadsheet'
+
+require 'json'
