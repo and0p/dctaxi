@@ -1,4 +1,5 @@
 class Trip < ActiveRecord::Base
+  has_many :steps
   validates :tdms_id, presence: true
   validates :provider_type, presence: true
   validates :provider, presence: true
@@ -43,5 +44,16 @@ class Trip < ActiveRecord::Base
   def clean_addresses
     if(pickup_address.downcase.include? "aviation") then pickup_address = "Aviation Circle" end
     if(dropoff_address.downcase.include? "aviation") then dropoff_address = "Aviation Circle" end
+  end
+
+  def populate_from_json(json_string)
+    json = JSON.parse(json_string)
+    # Make sure we actually got results
+    if(json["status"] != "OK") then return false end
+    # Get bounds
+    northeast_lat = json["routes"][0]["bounds"]["northeast"]["lat"]
+    northeast_lon = json["routes"][0]["bounds"]["northeast"]["lng"]
+    southwest_lat = json["routes"][0]["bounds"]["southwest"]["lat"]
+    southwest_lon = json["routes"][0]["bounds"]["southwest"]["lng"]
   end
 end
