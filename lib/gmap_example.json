@@ -1,0 +1,392 @@
+{
+  "geocoded_waypoints" : [
+    {
+      "geocoder_status" : "OK",
+      "place_id" : "ChIJD6ene522t4kRk7D2Rchvz_g",
+      "types" : [ "locality", "political" ]
+    },
+    {
+      "geocoder_status" : "OK",
+      "place_id" : "ChIJW-T2Wt7Gt4kRKl2I1CJFUsI",
+      "types" : [ "locality", "political" ]
+    }
+  ],
+  "routes" : [
+    {
+      "bounds" : {
+        "northeast" : {
+          "lat" : 38.9079253,
+          "lng" : -77.03690619999999
+        },
+        "southwest" : {
+          "lat" : 38.8799318,
+          "lng" : -77.10675959999999
+        }
+      },
+      "copyrights" : "Map data ©2016 Google",
+      "legs" : [
+        {
+          "distance" : {
+            "text" : "5.2 mi",
+            "value" : 8398
+          },
+          "duration" : {
+            "text" : "19 mins",
+            "value" : 1138
+          },
+          "end_address" : "Washington, DC, USA",
+          "end_location" : {
+            "lat" : 38.9071647,
+            "lng" : -77.03690619999999
+          },
+          "start_address" : "Arlington, VA, USA",
+          "start_location" : {
+            "lat" : 38.8799318,
+            "lng" : -77.10675959999999
+          },
+          "steps" : [
+            {
+              "distance" : {
+                "text" : "0.5 mi",
+                "value" : 839
+              },
+              "duration" : {
+                "text" : "2 mins",
+                "value" : 117
+              },
+              "end_location" : {
+                "lat" : 38.8842008,
+                "lng" : -77.0988734
+              },
+              "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eWilson Blvd\u003c/b\u003e toward \u003cb\u003eN Pollard St\u003c/b\u003e",
+              "polyline" : {
+                "points" : "qvhlFf|ruMC[Ii@a@eAq@}Ay@kBAASg@oAuCoAkCgAiCU_AQe@o@oBi@sAo@wAu@oBa@_AQ[GIcBmB[_@WW"
+              },
+              "start_location" : {
+                "lat" : 38.8799318,
+                "lng" : -77.10675959999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.7 mi",
+                "value" : 1131
+              },
+              "duration" : {
+                "text" : "3 mins",
+                "value" : 174
+              },
+              "end_location" : {
+                "lat" : 38.8845871,
+                "lng" : -77.08584929999999
+              },
+              "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003e10th St N\u003c/b\u003e",
+              "maneuver" : "turn-right",
+              "polyline" : {
+                "points" : "gqilF|jquMGSCKEKAGAGIa@BW?W?W?c@EiEEgGAwDCoE?k@AkA?_@?UEcEAeECsDE{EAgECoB?}ACgA?U?]?IAc@"
+              },
+              "start_location" : {
+                "lat" : 38.8842008,
+                "lng" : -77.0988734
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "344 ft",
+                "value" : 105
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 15
+              },
+              "end_location" : {
+                "lat" : 38.8847461,
+                "lng" : -77.08465869999999
+              },
+              "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e, follow signs for \u003cb\u003eWashington\u003c/b\u003e",
+              "maneuver" : "keep-left",
+              "polyline" : {
+                "points" : "usilFpynuMEgAIgAAEC]E]AAAU?C"
+              },
+              "start_location" : {
+                "lat" : 38.8845871,
+                "lng" : -77.08584929999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "1.1 mi",
+                "value" : 1808
+              },
+              "duration" : {
+                "text" : "2 mins",
+                "value" : 109
+              },
+              "end_location" : {
+                "lat" : 38.890394,
+                "lng" : -77.06808599999999
+              },
+              "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e to merge onto \u003cb\u003eArlington Blvd\u003c/b\u003e",
+              "polyline" : {
+                "points" : "utilFbrnuMKC_@I{@[o@[s@g@o@m@i@w@{@cBUm@Sw@Y{AYeBMw@Em@Sq@c@iAs@gAW_@g@o@aCoCs@y@o@o@gBsBAAg@k@_AgA_@g@Wi@Qa@Wo@Og@Qm@s@kCEO{@{C}@gDMi@Ki@E]KgAEs@Am@A_ABm@@Y?A?K@M?AFm@Hm@Lu@?AT_AJa@Z_ANc@JUJWLWLUJSNYbAeBd@w@FKDI"
+              },
+              "start_location" : {
+                "lat" : 38.8847461,
+                "lng" : -77.08465869999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.8 mi",
+                "value" : 1222
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 72
+              },
+              "end_location" : {
+                "lat" : 38.8928167,
+                "lng" : -77.05461459999999
+              },
+              "html_instructions" : "Keep \u003cb\u003eleft\u003c/b\u003e at the fork, follow signs for \u003cb\u003eUS 50 E\u003c/b\u003e/\u003cb\u003eWashington\u003c/b\u003e and merge onto \u003cb\u003eI-66 E\u003c/b\u003e/\u003cb\u003eUS-50 E\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eEntering District of Columbia\u003c/div\u003e",
+              "maneuver" : "fork-left",
+              "polyline" : {
+                "points" : "}wjlFpjkuMHa@BK@GBI@K@M@M@M?I@K?OAM?MAOCMAMEQAKGOEMGOIQKQOYIOGOGMIMISKWISGSGQEOGOCMESGQESEQCSESCSEQAQCSCQU_Cm@mGEa@E_@CYEUEWCYEYCSSqAMuAsCeZAMAO?IAI?K?K?M?K@M?K@S?Q@WBS@UBQ@Q"
+              },
+              "start_location" : {
+                "lat" : 38.890394,
+                "lng" : -77.06808599999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.4 mi",
+                "value" : 576
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 38
+              },
+              "end_location" : {
+                "lat" : 38.8958134,
+                "lng" : -77.0511813
+              },
+              "html_instructions" : "Take the exit on the \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eE St\u003c/b\u003e",
+              "maneuver" : "ramp-left",
+              "polyline" : {
+                "points" : "cgklFhvhuMDy@?M@K?G?I?GAMAKAIAMCKCICKCIEKEIEGEIIIGGGIIGIEECICGCIAECGAEAG?I?C?G?E?E?E@I@IBGBIBa@P_@HIBKBKBKBI@I@I@I@I@I?G@G?I?EAE?EAGAECGAECGCGEQUGIGGEGEKGMEMGOEQCOESCOESAOCQAMASAUAY?WAUAcA"
+              },
+              "start_location" : {
+                "lat" : 38.8928167,
+                "lng" : -77.05461459999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.3 mi",
+                "value" : 545
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 49
+              },
+              "end_location" : {
+                "lat" : 38.895421,
+                "lng" : -77.04491969999999
+              },
+              "html_instructions" : "Continue onto \u003cb\u003eE St Expy\u003c/b\u003e",
+              "polyline" : {
+                "points" : "yyklFz`huM?{D?aACs@?w@?W@W?W?[@YBi@Bi@@q@@U@OBw@?C?AB_@?C@U?EBg@@i@?a@@A?_@@g@@WDe@Fy@BYVaC"
+              },
+              "start_location" : {
+                "lat" : 38.8958134,
+                "lng" : -77.0511813
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.2 mi",
+                "value" : 276
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 46
+              },
+              "end_location" : {
+                "lat" : 38.8954022,
+                "lng" : -77.04172919999999
+              },
+              "html_instructions" : "Continue onto \u003cb\u003eE St NW\u003c/b\u003e",
+              "polyline" : {
+                "points" : "kwklFvyfuMB_H?qD?kD"
+              },
+              "start_location" : {
+                "lat" : 38.895421,
+                "lng" : -77.04491969999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.3 mi",
+                "value" : 534
+              },
+              "duration" : {
+                "text" : "2 mins",
+                "value" : 106
+              },
+              "end_location" : {
+                "lat" : 38.9002056,
+                "lng" : -77.04170959999999
+              },
+              "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e18th St NW\u003c/b\u003e",
+              "maneuver" : "turn-left",
+              "polyline" : {
+                "points" : "gwklFxefuMsBAY?wFAQ?cA?w@?c@?O?{FC}BB"
+              },
+              "start_location" : {
+                "lat" : 38.8954022,
+                "lng" : -77.04172919999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.2 mi",
+                "value" : 326
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 78
+              },
+              "end_location" : {
+                "lat" : 38.9001958,
+                "lng" : -77.03794839999999
+              },
+              "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eH St NW\u003c/b\u003e",
+              "maneuver" : "turn-right",
+              "polyline" : {
+                "points" : "iullFtefuM?Y?mL?aG@e@"
+              },
+              "start_location" : {
+                "lat" : 38.9002056,
+                "lng" : -77.04170959999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "449 ft",
+                "value" : 137
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 45
+              },
+              "end_location" : {
+                "lat" : 38.9013331,
+                "lng" : -77.0385172
+              },
+              "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eConnecticut Ave NW\u003c/b\u003e",
+              "maneuver" : "turn-left",
+              "polyline" : {
+                "points" : "gullFdneuMWLqAn@UJq@\\MDE@I@M?C?"
+              },
+              "start_location" : {
+                "lat" : 38.9001958,
+                "lng" : -77.03794839999999
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.5 mi",
+                "value" : 733
+              },
+              "duration" : {
+                "text" : "4 mins",
+                "value" : 230
+              },
+              "end_location" : {
+                "lat" : 38.9079253,
+                "lng" : -77.0385034
+              },
+              "html_instructions" : "Continue onto \u003cb\u003e17th St NW\u003c/b\u003e",
+              "polyline" : {
+                "points" : "i|llFvqeuM]?{DAU?U?gE?Q?aEAE?E?qDAU?sA@gA?}@@mA?y@As@?[?"
+              },
+              "start_location" : {
+                "lat" : 38.9013331,
+                "lng" : -77.0385172
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "0.1 mi",
+                "value" : 153
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 56
+              },
+              "end_location" : {
+                "lat" : 38.9072574,
+                "lng" : -77.0369797
+              },
+              "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eMassachusetts Ave NW\u003c/b\u003e",
+              "maneuver" : "turn-right",
+              "polyline" : {
+                "points" : "qenlFrqeuMf@sBRu@@ENi@LK^s@HU"
+              },
+              "start_location" : {
+                "lat" : 38.9079253,
+                "lng" : -77.0385034
+              },
+              "travel_mode" : "DRIVING"
+            },
+            {
+              "distance" : {
+                "text" : "43 ft",
+                "value" : 13
+              },
+              "duration" : {
+                "text" : "1 min",
+                "value" : 3
+              },
+              "end_location" : {
+                "lat" : 38.9071647,
+                "lng" : -77.03690619999999
+              },
+              "html_instructions" : "Enter \u003cb\u003eScott Cir NW\u003c/b\u003e",
+              "polyline" : {
+                "points" : "kanlFbheuMD@LO"
+              },
+              "start_location" : {
+                "lat" : 38.9072574,
+                "lng" : -77.0369797
+              },
+              "travel_mode" : "DRIVING"
+            }
+          ],
+          "traffic_speed_entry" : [],
+          "via_waypoint" : []
+        }
+      ],
+      "overview_polyline" : {
+        "points" : "qvhlFf|ruMMeAsAcD_DkHwCuGg@eBo@oBi@sAeBgEs@{AkBwBs@w@K_@S}@Bo@?{@QyYAmD[wf@AaBOoCEc@Iy@k@M{@[o@[s@g@o@m@i@w@{@cBi@eBs@aESeBSq@c@iAkAgBiD_EmE_FgBsB_@g@Wi@i@qAa@uAsD_NYsAQeBGaB@mBBu@Fo@VcBTaAf@aBt@iBlBiDl@cANk@Ji@Ds@?w@M}@Wy@o@mAc@_Ae@qAo@mCQkAkAsLi@qESqAMuAuCsZCo@D}BJmAF{ACk@Km@Sk@]c@a@[a@M_@CW?a@Jk@Ti@Lm@Lg@Fc@@YE[Mi@m@Yo@WeAOeAGqAAm@A_GCeEBeBJ{CJgCHcERqCVaCB_H?}IwKCoD?{FC}BB?gM@gHiB|@{Ap@y@@oSCcJ?yF?[?f@sBT{@Ni@LKh@iAD@LO"
+      },
+      "summary" : "Arlington Blvd",
+      "warnings" : [],
+      "waypoint_order" : []
+    }
+  ],
+  "status" : "OK"
+}

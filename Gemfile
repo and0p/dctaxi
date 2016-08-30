@@ -44,4 +44,5 @@ gem 'tzinfo-data'
 # spreadsheets yo
 gem 'simple-spreadsheet'
 
-require 'json'
+gem 'json'
+gem 'nokogiri'
