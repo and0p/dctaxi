@@ -50,12 +50,16 @@ class Trip < ActiveRecord::Base
     json = JSON.parse(json_string)
     # Make sure we actually got results
     if(json["status"] != "OK") then return false end
+<<<<<<< HEAD
       # TODO lets record if Maps API fails to recognize trip
+=======
+>>>>>>> 718805a7f45fd91a3ad73bb287a051fa41f01159
     # Get bounds
     northeast_lat = json["routes"][0]["bounds"]["northeast"]["lat"]
     northeast_lon = json["routes"][0]["bounds"]["northeast"]["lng"]
     southwest_lat = json["routes"][0]["bounds"]["southwest"]["lat"]
     southwest_lon = json["routes"][0]["bounds"]["southwest"]["lng"]
+<<<<<<< HEAD
     # Grab the overview polyline
     polyline = json["routes"][0]["overview_polyline"]["points"]
     # Grab all individual legs of trip as Steps
@@ -71,5 +75,7 @@ class Trip < ActiveRecord::Base
       step.polyline = json_step["polyline"]["points"]
       step.save
     end
+=======
+>>>>>>> 718805a7f45fd91a3ad73bb287a051fa41f01159
   end
 end
