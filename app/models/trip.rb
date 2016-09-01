@@ -42,8 +42,18 @@ class Trip < ActiveRecord::Base
   end
 
   def clean_addresses
-    if pickup_address.downcase.include? "aviation" then pickup_address = "Aviation Circle" end
-    if dropoff_address.downcase.include? "aviation" then dropoff_address = "Aviation Circle" end
+    if pickup_address.downcase.include? "aviation" then self.pickup_address = "Aviation Circle" end
+    if dropoff_address.downcase.include? "aviation" then self.dropoff_address = "Aviation Circle" end
+    if pickup_city == ' Washington' then self.pickup_city = 'Washington' end
+    if dropoff_city == ' Washington' then self.dropoff_city = 'Washington' end
+    if pickup_city == 'NULL' || pickup_state == 'NULL' then
+      self.pickup_city = 'Washington'
+      self.pickup_state = 'DC'
+    end
+    if dropoff_city == 'NULL' || dropoff_state == 'NULL' then
+      self.dropoff_city = 'Washington'
+      self.dropoff_state = 'DC'
+    end
   end
 
   def populate_from_json(json_string)
@@ -52,7 +62,7 @@ class Trip < ActiveRecord::Base
     if json['status'] == 'OK' then
       self.mappable = true
       # See if Google sees both endpoints as specific street addresses or generic streets / town centers / etc
-      if json["geocoded_waypoints"][0]["types"][0] == "street_address" && json["geocoded_waypoints"][1]["types"][0] == "street_address" then
+      if (json["geocoded_waypoints"][0]["types"][0] == "street_address" || json["geocoded_waypoints"][0]["types"][0] == "premise" || json["geocoded_waypoints"][0]["types"][0] == "intersection") && (json["geocoded_waypoints"][1]["types"][0] == "street_address" || json["geocoded_waypoints"][1]["types"][0] == "premise" || json["geocoded_waypoints"][1]["types"][0] == "intersection")
         self.specific_addresses_specified = true
       else
         self.specific_addresses_specified = false
@@ -89,4 +99,23 @@ class Trip < ActiveRecord::Base
     end
     self.processed = true
   end
+
+  def generate_url
+    url = 'https://maps.googleapis.com/maps/api/directions/json?origin='
+    url << pickup_address.gsub(' ', '+')
+    url << ','
+    url << pickup_city.gsub(' ', '+')
+    url << ','
+    url << pickup_state.gsub(' ', '+')
+    url << '&destination='
+    url << dropoff_address.gsub(' ', '+')
+    url << ','
+    url << dropoff_city.gsub(' ', '+')
+    url << ','
+    url << dropoff_state.gsub(' ', '+')
+    url << '&key='
+    url << ENV["GMAPS_API_KEY"].to_s
+    return url
+  end
+
 end
