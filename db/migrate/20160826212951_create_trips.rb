@@ -16,7 +16,7 @@ class CreateTrips < ActiveRecord::Migration
       t.datetime :pickup_time
       t.datetime :dropoff_time
       t.decimal :pickup_lat
-      t.decimal :pickup_long
+      t.decimal :pickup_lon
       t.string :pickup_address
       t.string :pickup_city
       t.string :pickup_state
@@ -30,7 +30,7 @@ class CreateTrips < ActiveRecord::Migration
       t.float :mileage
       t.integer :time
       t.decimal :northeast_bound_lat
-      t.decimal :northeast_bound_long
+      t.decimal :northeast_bound_lon
       t.decimal :southeast_bound_lat
       t.decimal :southeast_bound_lon
       t.text :polyline

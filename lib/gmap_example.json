@@ -3,12 +3,12 @@
     {
       "geocoder_status" : "OK",
       "place_id" : "ChIJD6ene522t4kRk7D2Rchvz_g",
-      "types" : [ "locality", "political" ]
+      "types" : [ "street_address" ]
     },
     {
       "geocoder_status" : "OK",
       "place_id" : "ChIJW-T2Wt7Gt4kRKl2I1CJFUsI",
-      "types" : [ "locality", "political" ]
+      "types" : [ "street_address" ]
     }
   ],
   "routes" : [

@@ -45,4 +45,3 @@ gem 'tzinfo-data'
 gem 'simple-spreadsheet'
 
 gem 'json'
-gem 'nokogiri'
