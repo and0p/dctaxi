@@ -1,6 +1,6 @@
 desc "Import"
 task :import  => :environment do
-  s = SimpleSpreadsheet::Workbook.read("c:\\users\\and0\\downloads\\sample trip data.xls")
+  s = SimpleSpreadsheet::Workbook.read("/home/cabox/workspace/dctaxi/sample.xls")
   total = 0
   saved = 0
   puts "Starting..."
